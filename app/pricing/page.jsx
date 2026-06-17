@@ -38,7 +38,7 @@ export default function Pricing() {
               <p className="plan-trial">✅ 7-day free trial available</p>
               <ul className="plan-features">
                 {[
-                  "1,000 AI messages/month",
+                  "1,000 AI replies/month",
                   "300 contacts",
                   "1 team seat",
                   "2 broadcasts/month",
@@ -70,7 +70,7 @@ export default function Pricing() {
               <p className="plan-trial">✅ 7-day free trial available</p>
               <ul className="plan-features">
                 {[
-                  "5,000 AI messages/month",
+                  "5,000 AI replies/month",
                   "2,000 contacts",
                   "3 team seats",
                   "10 broadcasts/month",
@@ -91,6 +91,9 @@ export default function Pricing() {
             *Instagram & Facebook launching soon — included in your plan automatically, no upgrade needed.
           </p>
           <p style={{textAlign:"center", fontSize:13, color:"var(--gray-300)", marginTop:4}}>
+            † AI replies to customer-initiated conversations are free per Meta's July 2025 pricing. Plan limits are fair-use caps. Broadcast sends are charged by Meta per template message.
+          </p>
+          <p style={{textAlign:"center", fontSize:13, color:"var(--gray-300)", marginTop:4}}>
             ✨ A higher-tier plan with advanced AI features is in the works — stay tuned.
           </p>
 
@@ -109,7 +112,7 @@ export default function Pricing() {
                 {[
                   ["Price", "₹999/mo", "₹1,999/mo"],
                   ["Channels", "WA + IG + FB*", "WA + IG + FB*"],
-                  ["AI messages/mo", "1,000", "5,000"],
+                  ["AI replies/mo †", "1,000", "5,000"],
                   ["Contacts", "300", "2,000"],
                   ["Team seats", "1", "3"],
                   ["Broadcasts/mo", "2", "10"],
@@ -135,7 +138,7 @@ export default function Pricing() {
             {[
               { q: "Is there a contract?", a: "No contracts. Cancel anytime from your billing page. Your plan stays active until the end of the month." },
               { q: "What happens after the 7-day trial?", a: "Your account moves to the free plan. You keep your data and can subscribe anytime to restore access." },
-              { q: "How are AI messages counted?", a: "Each message sent by the AI counts as 1 message — roughly 6-8 per conversation. Unused messages don't roll over." },
+              { q: "How are AI reply limits counted?", a: "Each reply the AI sends to a customer message counts as 1. Customer-initiated conversations are free per Meta's July 2025 pricing — our plan limits are fair-use caps, not cost pass-throughs. Broadcasts (bulk template sends) are charged separately by Meta per message sent." },
               { q: "Do I keep my WhatsApp Business app?", a: "Yes. With WhatsApp Coexistence, you keep your Status, Catalog, and Groups on the app while Replaito handles automated replies on the same number." },
               { q: "What is the refund policy?", a: "Refunds for verified technical failures on our side lasting over 24 hours. Email legal@replaito.com within 7 days of the issue." },
               { q: "Do I need Meta Business Verification?", a: "For the WhatsApp Cloud API you'll eventually need Meta Business Verification. We guide you through the process — it typically requires a GST certificate." },
