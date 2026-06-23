@@ -101,7 +101,7 @@ function Trust() {
 function Features() {
   const features = [
     { icon: "🤖", title: "AI that speaks your customer's language", body: "Replies in Tamil, Hindi, or English — even Tanglish — based on how your customer writes. No awkward bot-speak." },
-    { icon: "📥", title: "One inbox for your whole team", body: "Agents see all conversations across WhatsApp, Instagram, and Facebook. Assign, handoff, and reply from one place." },
+    { icon: "📥", title: "One inbox for your whole team", body: "Agents see all conversations across WhatsApp and Instagram. Assign, handoff, and reply from one place." },
     { icon: "⚡", title: "Keyword templates for instant answers", body: "\"Price\", \"menu\", \"timings\" — common questions auto-answered in seconds. Free your team for conversations that need a human." },
     { icon: "📋", title: "Order & booking capture", body: "AI collects the details — name, preference, date — and structures them for your team. No more chasing customers for basic info." },
     { icon: "📣", title: "Broadcast to contacts", body: "Send offers, reminders, and updates to your WhatsApp contacts. Segment by tag — not everyone needs every message." },

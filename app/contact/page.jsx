@@ -72,6 +72,14 @@ export default function Contact() {
                   <strong style={{color:"var(--gray-700)"}}>Response time:</strong> We aim to reply within 4 hours during business hours (9am–8pm IST, Mon–Sat). WhatsApp is fastest.
                 </p>
               </div>
+
+              {/* Legal entity info for transparency */}
+              <div style={{padding:"16px 20px", borderRadius:"var(--radius)", background:"var(--gray-50)", border:"1px solid var(--gray-100)"}}>
+                <p style={{fontSize:12, color:"var(--gray-500)", lineHeight:1.6}}>
+                  Replaito is a product of <strong style={{color:"var(--gray-700)"}}>ReplAI</strong> ·
+                  GSTIN: [YOUR_GSTIN] · [Registered Address]
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -82,13 +90,11 @@ export default function Contact() {
 
 function ContactForm() {
   const [form, setForm] = useState({ name: "", email: "", business: "", message: "" });
-  const [status, setStatus] = useState(""); // "sending" | "sent" | "error"
+  const [status, setStatus] = useState("");
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     setStatus("sending");
-    // In production: POST to /api/contact or a form service like Formspree
-    // For now simulate success after 1s
     setTimeout(() => setStatus("sent"), 1000);
   };
 

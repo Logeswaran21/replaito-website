@@ -36,6 +36,18 @@ export default function About() {
             <p>
               If your business runs on WhatsApp, Replaito is built for you — not as an add-on to some enterprise software stack, but as the primary tool that makes your WhatsApp inbox work the way it should.
             </p>
+
+            {/* ── Legal entity section — required for Meta Business Verification.
+                This paragraph explicitly connects the brand "Replaito" with the
+                registered legal entity "ReplAI" as required by Meta's reviewer.
+                Replace the placeholder GSTIN and address with your actual values. ── */}
+            <h2 style={{marginTop: 48}}>About the company</h2>
+            <p>
+              Replaito is a product built and operated by <strong>ReplAI</strong>, a company registered in India
+              (GSTIN: [YOUR_GSTIN]). Our registered office is at [Your Registered Address as on GST Certificate].
+              For any business correspondence, reach us at{" "}
+              <a href="mailto:support@replaito.com" style={{color: "var(--purple)"}}>support@replaito.com</a>.
+            </p>
           </div>
 
           {/* Values */}

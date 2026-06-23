@@ -52,6 +52,14 @@ function Footer() {
             <div className="footer-logo"><span className="logo-r">R</span>eplaito</div>
             <p className="footer-tagline">Your AI Employee for WhatsApp</p>
             <p className="footer-sub">Built for Indian small businesses.</p>
+            {/* ── Legal entity line — required for Meta Business Verification.
+                Meta checks that the legal entity name appears on the website
+                to connect the brand "Replaito" with the registered business
+                "ReplAI". Add your actual GSTIN and registered address below. ── */}
+            <p className="footer-legal">
+              Replaito is a product of ReplAI (GSTIN: [YOUR_GSTIN]) ·{" "}
+              [Your Registered Address as on GST Certificate]
+            </p>
           </div>
           <div>
             <p className="footer-heading">Product</p>
@@ -72,7 +80,7 @@ function Footer() {
           </div>
         </div>
         <div className="footer-bottom">
-          <p>© {new Date().getFullYear()} Replaito. All rights reserved. · Payments via Razorpay · Prices in INR + GST</p>
+          <p>© {new Date().getFullYear()} ReplAI. Replaito is a product of ReplAI. All rights reserved. · Payments via Razorpay · Prices in INR + GST</p>
         </div>
       </div>
     </footer>

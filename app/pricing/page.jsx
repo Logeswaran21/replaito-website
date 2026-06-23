@@ -13,7 +13,7 @@ export default function Pricing() {
             Simple pricing. No hidden fees.
           </h1>
           <p style={{fontSize: 17, color: "var(--gray-500)", maxWidth: 480, margin: "0 auto"}}>
-            Start with a 7-day free trial. Cancel anytime. All plans include WhatsApp, Instagram, and Facebook.
+            Start with a 7-day free trial. Cancel anytime. All plans include WhatsApp and Instagram.
           </p>
         </div>
       </section>
@@ -25,7 +25,7 @@ export default function Pricing() {
             {/* Starter */}
             <div className="plan-card">
               <div style={{display:"flex", gap:8, flexWrap:"wrap", marginBottom:16}}>
-                {["WhatsApp","Instagram*","Facebook*"].map(ch => (
+                {["WhatsApp","Instagram*"].map(ch => (
                   <span key={ch} style={{padding:"3px 10px", borderRadius:999, fontSize:11, fontWeight:600, background: ch==="WhatsApp" ? "#D1FAE5" : "#F5F3FF", color: ch==="WhatsApp" ? "#065F46" : "var(--purple)"}}>
                     {ch}
                   </span>
@@ -42,7 +42,7 @@ export default function Pricing() {
                   "300 contacts",
                   "1 team seat",
                   "2 broadcasts/month",
-                  "Flow engine",
+                  "Flow engine — orders & bookings",
                   "Pipeline CRM",
                   "Keyword templates",
                   "Email support",
@@ -57,7 +57,7 @@ export default function Pricing() {
             <div className="plan-card popular">
               <div className="plan-badge">Most popular</div>
               <div style={{display:"flex", gap:8, flexWrap:"wrap", marginBottom:16}}>
-                {["WhatsApp","Instagram*","Facebook*"].map(ch => (
+                {["WhatsApp","Instagram*"].map(ch => (
                   <span key={ch} style={{padding:"3px 10px", borderRadius:999, fontSize:11, fontWeight:600, background: ch==="WhatsApp" ? "#D1FAE5" : "#F5F3FF", color: ch==="WhatsApp" ? "#065F46" : "var(--purple)"}}>
                     {ch}
                   </span>
@@ -73,11 +73,11 @@ export default function Pricing() {
                   "5,000 AI replies/month",
                   "2,000 contacts",
                   "3 team seats",
-                  "10 broadcasts/month",
-                  "Flow engine",
+                  "6 broadcasts/month",
+                  "Flow engine — orders & bookings",
                   "Pipeline CRM",
                   "Custom AI prompt",
-                  "Basic analytics",
+                  "Analytics dashboard",
                   "Priority support",
                 ].map(f => <li key={f}>{f}</li>)}
               </ul>
@@ -88,13 +88,13 @@ export default function Pricing() {
           </div>
 
           <p style={{textAlign:"center", fontSize:13, color:"var(--gray-300)", marginTop:16}}>
-            *Instagram & Facebook launching soon — included in your plan automatically, no upgrade needed.
+            *Instagram launching soon — included in your plan automatically, no upgrade needed.
           </p>
           <p style={{textAlign:"center", fontSize:13, color:"var(--gray-300)", marginTop:4}}>
             † AI replies to customer-initiated conversations are free per Meta's July 2025 pricing. Plan limits are fair-use caps. Broadcast sends are charged by Meta per template message.
           </p>
           <p style={{textAlign:"center", fontSize:13, color:"var(--gray-300)", marginTop:4}}>
-            ✨ A higher-tier plan with advanced AI features is in the works — stay tuned.
+            ✨ A Pro plan with advanced AI features and higher limits is coming soon.
           </p>
 
           {/* Comparison table */}
@@ -111,11 +111,11 @@ export default function Pricing() {
               <tbody>
                 {[
                   ["Price", "₹999/mo", "₹1,999/mo"],
-                  ["Channels", "WA + IG + FB*", "WA + IG + FB*"],
+                  ["Channels", "WhatsApp + Instagram*", "WhatsApp + Instagram*"],
                   ["AI replies/mo †", "1,000", "5,000"],
                   ["Contacts", "300", "2,000"],
                   ["Team seats", "1", "3"],
-                  ["Broadcasts/mo", "2", "10"],
+                  ["Broadcasts/mo", "2 (up to 200/send)", "6 (up to 125/send)"],
                   ["Flow engine", "✓", "✓"],
                   ["Pipeline CRM", "✓", "✓"],
                   ["Custom AI prompt", "✗", "✓"],
@@ -140,8 +140,9 @@ export default function Pricing() {
               { q: "What happens after the 7-day trial?", a: "Your account moves to the free plan. You keep your data and can subscribe anytime to restore access." },
               { q: "How are AI reply limits counted?", a: "Each reply the AI sends to a customer message counts as 1. Customer-initiated conversations are free per Meta's July 2025 pricing — our plan limits are fair-use caps, not cost pass-throughs. Broadcasts (bulk template sends) are charged separately by Meta per message sent." },
               { q: "Do I keep my WhatsApp Business app?", a: "Yes. With WhatsApp Coexistence, you keep your Status, Catalog, and Groups on the app while Replaito handles automated replies on the same number." },
-              { q: "What is the refund policy?", a: "Refunds for verified technical failures on our side lasting over 24 hours. Email legal@replaito.com within 7 days of the issue." },
-              { q: "Do I need Meta Business Verification?", a: "For the WhatsApp Cloud API you'll eventually need Meta Business Verification. We guide you through the process — it typically requires a GST certificate." },
+              { q: "What is the refund policy?", a: "Refunds for verified technical failures on our side lasting over 24 hours. Email support@replaito.com within 7 days of the issue." },
+              { q: "Do I need Meta Business Verification?", a: "For the WhatsApp Cloud API you'll eventually need Meta Business Verification. We guide you through the process — it typically requires a GST certificate and takes 2-4 business days." },
+              { q: "Can I buy more AI replies if I run out?", a: "Yes — one-time top-ups are available from your Billing page. +500 replies for ₹199, +1,000 for ₹349, or +2,500 for ₹699. They're added instantly and last until your next billing cycle." },
             ].map(item => (
               <div key={item.q} className="faq-item">
                 <h3>{item.q}</h3>
