@@ -52,13 +52,8 @@ function Footer() {
             <div className="footer-logo"><span className="logo-r">R</span>eplaito</div>
             <p className="footer-tagline">Your AI Employee for WhatsApp</p>
             <p className="footer-sub">Built for Indian small businesses.</p>
-            {/* ── Legal entity line — required for Meta Business Verification.
-                Meta checks that the legal entity name appears on the website
-                to connect the brand "Replaito" with the registered business
-                "ReplAI". Add your actual GSTIN and registered address below. ── */}
             <p className="footer-legal">
-              Replaito is a product of ReplAI (GSTIN: 33APXPL4723P1Z4) ·{" "}
-              · 15/2, Alacrity Flats, 14th Street, Iyappa Nagar, Lake View Road, Madipakkam, Chennai - 600091.
+              Replaito is a product of ReplAI (GSTIN: 33APXPL4723P1Z4) · 15/2, Alacrity Flats, 14th Street, Iyappa Nagar, Lake View Road, Madipakkam, Chennai - 600091
             </p>
           </div>
           <div>
