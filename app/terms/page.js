@@ -6,6 +6,7 @@ export default function Terms() {
   const brandName    = "Replaito";
   const contactEmail = "hello@replaito.com";
   const website      = "https://replaito.com";
+  const contactEmail = "legal@replaito.com";
 
   return (
     <div style={s.page}>

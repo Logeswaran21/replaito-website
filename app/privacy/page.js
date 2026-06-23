@@ -7,6 +7,8 @@ export default function Privacy() {
   const contactEmail = "hello@replaito.com";
   const website = "https://replaito.com";
 
+  const contactEmail = "privacy@replaito.com";
+  
   return (
     <div style={s.page}>
       <div style={s.container}>
