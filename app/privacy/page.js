@@ -4,11 +4,9 @@ export default function Privacy() {
   const lastUpdated = "24 June 2026";
   const legalName   = "ReplAI";
   const brandName   = "Replaito";
-  const contactEmail = "hello@replaito.com";
+  const contactEmail = "privacy@replaito.com";
   const website = "https://replaito.com";
 
-  const contactEmail = "privacy@replaito.com";
-  
   return (
     <div style={s.page}>
       <div style={s.container}>

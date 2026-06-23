@@ -4,9 +4,8 @@ export default function Terms() {
   const lastUpdated  = "24 June 2026";
   const legalName    = "ReplAI";
   const brandName    = "Replaito";
-  const contactEmail = "hello@replaito.com";
-  const website      = "https://replaito.com";
   const contactEmail = "legal@replaito.com";
+  const website      = "https://replaito.com";
 
   return (
     <div style={s.page}>
