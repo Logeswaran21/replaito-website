@@ -44,7 +44,7 @@ export default function About() {
             <h2 style={{marginTop: 48}}>About the company</h2>
             <p>
               Replaito is a product built and operated by <strong>ReplAI</strong>, a company registered in India
-              (GSTIN: [YOUR_GSTIN]). Our registered office is at [Your Registered Address as on GST Certificate].
+              (GSTIN: 33APXPL4723P1Z4). Our registered office is at 15/2, Alacrity Flats, 14th Street, Iyappa Nagar, Lake View Road, Madipakkam, Chennai - 600091.
               For any business correspondence, reach us at{" "}
               <a href="mailto:support@replaito.com" style={{color: "var(--purple)"}}>support@replaito.com</a>.
             </p>

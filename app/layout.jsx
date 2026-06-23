@@ -57,8 +57,8 @@ function Footer() {
                 to connect the brand "Replaito" with the registered business
                 "ReplAI". Add your actual GSTIN and registered address below. ── */}
             <p className="footer-legal">
-              Replaito is a product of ReplAI (GSTIN: [YOUR_GSTIN]) ·{" "}
-              [Your Registered Address as on GST Certificate]
+              Replaito is a product of ReplAI (GSTIN: 33APXPL4723P1Z4) ·{" "}
+              15/2, Alacrity Flats, 14th Street, Iyappa Nagar, Lake View Road, Madipakkam, Chennai - 600091
             </p>
           </div>
           <div>

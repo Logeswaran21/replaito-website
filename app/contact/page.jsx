@@ -77,7 +77,7 @@ export default function Contact() {
               <div style={{padding:"16px 20px", borderRadius:"var(--radius)", background:"var(--gray-50)", border:"1px solid var(--gray-100)"}}>
                 <p style={{fontSize:12, color:"var(--gray-500)", lineHeight:1.6}}>
                   Replaito is a product of <strong style={{color:"var(--gray-700)"}}>ReplAI</strong> ·
-                  GSTIN: [YOUR_GSTIN] · [Registered Address]
+                  GSTIN: 33APXPL4723P1Z4 · [Registered Address]
                 </p>
               </div>
             </div>
