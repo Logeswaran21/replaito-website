@@ -58,7 +58,7 @@ function Footer() {
                 "ReplAI". Add your actual GSTIN and registered address below. ── */}
             <p className="footer-legal">
               Replaito is a product of ReplAI (GSTIN: 33APXPL4723P1Z4) ·{" "}
-              15/2, Alacrity Flats, 14th Street, Iyappa Nagar, Lake View Road, Madipakkam, Chennai - 600091
+              · 15/2, Alacrity Flats, 14th Street, Iyappa Nagar, Lake View Road, Madipakkam, Chennai - 600091.
             </p>
           </div>
           <div>
