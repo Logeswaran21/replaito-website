@@ -3,11 +3,16 @@ import "./globals.css";
 export const metadata = {
   title: "Replaito — Your AI Employee for WhatsApp",
   description: "Automatically reply to customers, qualify leads, and hand off to your team when needed — all from one inbox. Built for Indian small businesses.",
+  icons: {
+    icon: "/favicon.ico",
+    apple: "/apple-touch-icon.png",
+  },
   openGraph: {
     title: "Replaito — Your AI Employee for WhatsApp",
     description: "AI-powered WhatsApp automation for Indian small businesses.",
     url: "https://replaito.com",
     siteName: "Replaito",
+    images: [{ url: "/og-image.png", width: 1200, height: 630 }],
   },
 };
 
